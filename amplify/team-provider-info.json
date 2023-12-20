@@ -1,0 +1,33 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-deardiary-dev-220915-authRole",
+      "UnauthRoleArn": "arn:aws:iam::972451105760:role/amplify-deardiary-dev-220915-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::972451105760:role/amplify-deardiary-dev-220915-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-deardiary-dev-220915-deployment",
+      "UnauthRoleName": "amplify-deardiary-dev-220915-unauthRole",
+      "StackName": "amplify-deardiary-dev-220915",
+      "StackId": "arn:aws:cloudformation:ap-south-1:972451105760:stack/amplify-deardiary-dev-220915/53669660-9f56-11ee-b4c1-027d8b590114",
+      "AmplifyAppId": "d36su5zw6svc2r"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d36su5zw6svc2r",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "ddlambda": {
+          "ddenv": "1",
+          "deploymentBucketName": "amplify-deardiary-dev-220915-deployment",
+          "s3Key": "amplify-builds/ddlambda-7231762b39387037326a-build.zip"
+        }
+      },
+      "api": {
+        "ddapi": {}
+      }
+    }
+  }
+}
